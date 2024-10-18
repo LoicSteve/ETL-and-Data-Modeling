@@ -11,7 +11,7 @@ Here is the diagram with the main requirements for this project:
 1. The pipeline has to follow a medallion architecture with a landing, transform and serving zone.
 2. The data generated in the pipeline will be stored in the company's data lake, in this case, an S3 bucket.
 3. The silver layer should use Iceberg tables, and the gold layer should be inside Redshift.
-4. The pipeline should be reproducible, you will have to implement it using Terraform.
-5. The data should be modelled into a star schema in the serving layer, you should use dbt for the modelling part.
+4. The pipeline should be reproducible, we will have to implement it using Terraform.
+5. The data should be modelled into a star schema in the serving layer, we should use dbt for the modelling part.
 
 
