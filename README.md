@@ -14,4 +14,4 @@ Here is the diagram with the main requirements for this project:
 4. The pipeline should be reproducible, you will have to implement it using Terraform.
 5. The data should be modelled into a star schema in the serving layer, you should use dbt for the modelling part.
 
-Before starting, you will need to import some required libraries and modules for the capstone development.
+
